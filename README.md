@@ -4,11 +4,11 @@
 - [Network Diagram](#Network-Diagram)
 - [Description of the Topology](#Description-of-the-Topology)
 - Basics
-  - ELK Stack
+  - [ELK Stack](#What-is-an-ELK-stack?)
   - Beats Family
-  - Ansible
+  - [Ansible](# What-is-Ansible?)
 - Setup Instructions
-- Server Requirements
+- [Server Requirements](#Minimum-Server-Requirements)
 - [Infrastructure Access Policies](#Access-Policies)
 - [ELK Config File](/Files/install-elk.yml)
 - [Filebeat Config File](/Files/filebeat-config.yml)
@@ -67,6 +67,25 @@ It records metrics/statistics data and transports them to the output that you sp
 | Web-2               | Web Server | 10.0.0.6      | Linux            |
 | Web-3               | Web Server | 10.0.0.9      | Linux            |
 | ELK-Server          | Monitoring | 10.1.0.4      | Linux            |
+
+## What is an ELK stack?
+
+ELK stands for Elasticsearch, Logstash and Kibana. It is a collection of three open source products (Elasticsearch, Logstash and Kibana). ELK is a centralized logging platform to perform functions such as statistical analysis, queries over a large set of log data efficiently.
+
+Elasticsearch — Search engine that makes the queries possible. Input to ES has to be in JSON format.
+Logstash — Filter engine that processes the logs format before being indexed by Elasticsearch
+Kibana — GUI interface
+
+## What is Ansible?
+
+It is a Infrastructure as a code tool. Scripts in the form yaml files are used to perform configuration management against remote servers, with idempotent execution and users can easily scale those scripts to hundreds of servers, without having to access each remote server.
+
+Playbooks — Ansible scripts in the form of yaml files.
+
+
+## Minimum Server Requirements
+
+ELK → 2 VCPUs, 8GB RAM
 
 ## Access Policies
 
