@@ -33,11 +33,11 @@
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the Ansible-Playbook elk.yml file may be used to install only certain pieces of it, such as Filebeat.
 
-- [ELK Config ] (/Files/install-elk.yml)
+- [ELK Config ](/Files/install-elk.yml)
 - [Elk Playbook](/Files/install-elk.yml)
-- [Filebeat Config ] (/Files/install-elk.yml)
+- [Filebeat Config ](/Files/filebeat-config.yml)
 - [Filebeat Playbook](/Files/filebeat-playbook.yml)
-- [Filebeat Config ] (/Files/install-elk.yml)
+- [Filebeat Config ](/Files/metricbeat-config.yml)
 - [Metricbeat Playbook](/Files/metricbeat-playbook.yml)
 
 ##Description of the Topology
