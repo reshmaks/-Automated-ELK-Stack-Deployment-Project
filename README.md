@@ -2,20 +2,21 @@
 
 # Table of Contents
 - [Network Diagram](#Network-Diagram)
-- [Description of the Topology](##description-of-the-topology)
+- [Description of the Topology](#Description-of-the-Topology)
 - Basics
   - ELK Stack
   - Beats Family
   - Ansible
 - Setup Instructions
 - Server Requirements
-- ELK Config File
-- Filebeat Config File
-- Metricbeat Config File
+- [Infrastructure Access Policies](#Access-Policies)
+- [ELK Config File](/Files/install-elk.yml)
+- [Filebeat Config File](/Files/filebeat-config.yml)
+- [Metricbeat Config File](/Files/metricbeat-config.yml)
 - Setting up your Ansible environment  and SSH Keys
-- Deploying the ELK Stack using Ansible
-- Deploying the Filebeat clients using Ansible
-- Deploying the Metricbeat clients using Ansible
+- [Deploying the ELK Stack using Ansible](#Elk-Configuration)
+- [Deploying the Filebeat clients using Ansible](#Filebeat)
+- [Deploying the Metricbeat clients using Ansible](#Metricbeat)
 - Check on all services are up and running
 - Exploring Kibana
 
@@ -170,7 +171,7 @@ Answer the following questions to fill in the blanks:
 
 As a Bonus, provide the specific commands the user will need to run to download the playbook, update the files, etc.
 
--------Filebeat---------
+#### Filebeat
 ```
 1. cd /etc/ansible
 2. curl https://gist.githubusercontent.com/slape/5cc350109583af6cbe577bbcc0710c93/raw/eca603b72586f be148c11f9c87bf96a63cb25760/Filebeat > filebeat-config.yml
@@ -243,7 +244,7 @@ ansible-playbook filebeat-playbook.yml
 ```
 
 
--------Metricbeat-------
+#### Metricbeat
 ```
 1. cd /etc/ansible
 2. curl https://gist.githubusercontent.com/slape/58541585cc1886d2e26cd8be557ce04c/raw/0ce2c7e744c54513616966affb5e9d96f5e12f73/metricbeat > metricbeat-config.yml
