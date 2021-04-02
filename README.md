@@ -1,7 +1,7 @@
 # Automated-ELK-Stack-Deployment
 
 # Table of Contents
-- [Network Diagram](##network-diagram)
+- [Network Diagram](##Network-Diagram)
 - [Description of the Topology](##description-of-the-topology)
 - Basics
   - ELK Stack
