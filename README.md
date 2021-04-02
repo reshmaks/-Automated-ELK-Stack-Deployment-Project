@@ -4,9 +4,9 @@
 - [Network Diagram](#Network-Diagram)
 - [Description of the Topology](#Description-of-the-Topology)
 - Basics
-  - [ELK Stack](#What-is-an-ELK-stack?)
+  - [ELK Stack](#What-is-an-ELK-stack)
   - Beats Family
-  - [Ansible](# What-is-Ansible?)
+  - [Ansible](#What-is-Ansible)
 - Setup Instructions
 - [Server Requirements](#Minimum-Server-Requirements)
 - [Infrastructure Access Policies](#Access-Policies)
