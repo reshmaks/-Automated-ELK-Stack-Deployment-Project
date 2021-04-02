@@ -1,8 +1,8 @@
 # Automated-ELK-Stack-Deployment
 
-#Table of Contents
-- [Network Diagram](#network-diagram)
-- [Description of the Topology](#description-of-the-topology)
+# Table of Contents
+- [Network Diagram](##network-diagram)
+- [Description of the Topology](##description-of-the-topology)
 - Basics
   - ELK Stack
   - Beats Family
@@ -22,7 +22,7 @@
 
 *The files in this repository were used to configure the network depicted below.
 
-#Network Diagram
+## Network Diagram
 
 ![Network Diagram](/Diagrams/ELK-Diagram.png)
 
@@ -35,7 +35,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
 - [Filebeat Config ](/Files/metricbeat-config.yml)
 - [Metricbeat Playbook](/Files/metricbeat-playbook.yml)
 
-#Description of the Topology
+## Description of the Topology
 
 The main components of the above newtork topology are:
 
@@ -67,7 +67,7 @@ It records metrics/statistics data and transports them to the output that you sp
 | Web-3               | Web Server | 10.0.0.9      | Linux            |
 | ELK-Server          | Monitoring | 10.1.0.4      | Linux            |
 
-##Access Policies
+## Access Policies
 
 The machines on the internal network are not exposed to the public Internet.
 
@@ -88,7 +88,7 @@ A summary of the access policies in place can be found in the table below.
 
 --All these VMs can only be accessed form the Jump-Box-Provisioner--
 
-Elk Configuration
+### Elk Configuration
 
 *Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because it automates IT configuration management, and deployment to multiple servers at the same time. Also, Ansible has a portal called Ansible Galaxy, central repository for locating, reusing, and sharing Ansible-related content.
 
@@ -133,7 +133,7 @@ The filebeat-configuration.yml is configured to fetch all the log files in this 
 
 Metricbeat collects machine metrics. it is simply a measurement to tell analysts how healthy it is.Examples of Metricbeat  data can be CPU usage/Uptime
 
-###Using the Playbook
+### Using the Playbook
 
 - [Filebeat Playbook](/Files/filebeat-playbook.yml)
 - [Metricbeat Playbook](/Files/metricbeat-playbook.yml)
