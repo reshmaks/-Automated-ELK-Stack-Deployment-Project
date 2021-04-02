@@ -1,33 +1,28 @@
 # Automated-ELK-Stack-Deployment
 
+#Table of Contents
+- [Network Diagram](#network-diagram)
+- [Description of the Topology](#description-of-the-topology)
+- Basics
+  - ELK Stack
+  - Beats Family
+  - Ansible
+- Setup Instructions
+- Server Requirements
+- ELK Config File
+- Filebeat Config File
+- Metricbeat Config File
+- Setting up your Ansible environment  and SSH Keys
+- Deploying the ELK Stack using Ansible
+- Deploying the Filebeat clients using Ansible
+- Deploying the Metricbeat clients using Ansible
+- Check on all services are up and running
+- Exploring Kibana
 
-**Table of Contents**
-
-[TOCM]
-
-[TOC]
-
-#Network Diagram
-#Description of the Topology
-#Basics
-##ELK Stack
-##Beats Family
-##Ansible
-#Setup Instructions
-##Server Requirements
-##ELK Config File
-##Filebeat Config File
-##Metricbeat Config File
-##Setting up your Ansible environment  and SSH Keys
-##Deploying the ELK Stack using Ansible
-##Deploying the Filebeat clients using Ansible
-##Deploying the Metricbeat clients using Ansible
-##Check on all services are up and running
-##Exploring Kibana
 
 *The files in this repository were used to configure the network depicted below.
 
-##Network Diagram
+#Network Diagram
 
 ![Network Diagram](/Diagrams/ELK-Diagram.png)
 
@@ -40,7 +35,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
 - [Filebeat Config ](/Files/metricbeat-config.yml)
 - [Metricbeat Playbook](/Files/metricbeat-playbook.yml)
 
-##Description of the Topology
+#Description of the Topology
 
 The main components of the above newtork topology are:
 
