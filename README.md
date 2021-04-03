@@ -119,14 +119,14 @@ All these components are configured within a resource group called *Red Team Res
 
 ### Steps to configure an ELK server within an existing virtual network.
 
-- Create a new vNet in a new region, within the existing Red Team resource group.
-- Create a Peer Network Connection between the two vNets.
-- Create a new VM. Deploy a new VM into the new vNet with it's own Security Group. This VM will host the ELK server.
-- Download and configure a container. Download and configure the elk-docker container onto this new VM.
-- Launch and expose the container. Launch the elk-docker container to start the ELK server.
-- Implement identity and access management. Configure your new Security group so you can connect to
-ELK via HTTP, and view it through the browser.
-
+- [Create a new vNet in a new region, within the existing Red Team resource group.](/Files/Vnet.md)
+- [Create a Peer Network Connection between the two vNets.](/Files/Peer-Vnet.md)
+- [Create a new VM. Deploy a new VM into the new vNet with it's own Security Group. This VM will host the ELK server.](/Files/ELK-VM.md)
+- [Download and configure a container. Download and configure the elk-docker container onto this new VM.](/Files/ELK-container.md)
+- [Launch and expose the container. Launch the elk-docker container to start the ELK server.](/Files/Launching-container.md)
+- [Implement identity and access management. Configure your new Security group so you can connect to ELK via HTTP, and view it through the browser.](/Files/Access-Management.md)
+- [Filebeat Installation](/Files/Filebeat-install.md)
+- [Metricbeat Installation](/Files/Metricbeat-install.md)
 
 ### Elk Configuration
 
@@ -210,7 +210,7 @@ Answer the following questions to fill in the blanks:
 
 As a Bonus, provide the specific commands the user will need to run to download the playbook, update the files, etc.
 
-#### Filebeat
+### Filebeat
 ```
 1. cd /etc/ansible
 2. curl https://gist.githubusercontent.com/slape/5cc350109583af6cbe577bbcc0710c93/raw/eca603b72586f be148c11f9c87bf96a63cb25760/Filebeat > filebeat-config.yml
@@ -283,7 +283,7 @@ ansible-playbook filebeat-playbook.yml
 ```
 
 
-#### Metricbeat
+### Metricbeat
 ```
 1. cd /etc/ansible
 2. curl https://gist.githubusercontent.com/slape/58541585cc1886d2e26cd8be557ce04c/raw/0ce2c7e744c54513616966affb5e9d96f5e12f73/metricbeat > metricbeat-config.yml
