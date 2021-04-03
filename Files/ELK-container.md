@@ -1,4 +1,5 @@
 ## Downloading and Configuring the Container
+
 In this step, you had to:
 - Add your new VM to the Ansible `hosts` file.
 - Create a new Ansible playbook to use for your new ELK virtual machine.
