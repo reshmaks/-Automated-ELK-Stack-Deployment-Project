@@ -122,7 +122,7 @@ All these components are configured within a resource group called *Red Team Res
 - [Create a Peer Network Connection between the two vNets.](/Files/Peer-Vnet.md)
 - [Create a new VM. Deploy a new VM into the new vNet with it's own Security Group. This VM will host the ELK server.](/Files/ELK-VM.md)
 - [Download and configure a container. Download and configure the elk-docker container onto this new VM.](/Files/ELK-container.md)
-- [Launch and expose the container. Launch the elk-docker container to start the ELK server.](/Files/Launching-container.md)
+- [Launch and expose the container. Launch the elk-docker container to start the ELK server.](/Files/Launcing-container.md)
 - [Implement identity and access management. Configure your new Security group so you can connect to ELK via HTTP, and view it through the browser.](/Files/Access-Management.md)
 - [Filebeat Installation](/Files/Filebeat-install.md)
 - [Metricbeat Installation](/Files/Metricbeat-install.md)
