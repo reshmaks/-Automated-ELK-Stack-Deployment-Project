@@ -55,7 +55,7 @@ sysadmin@ELK-Server:~$
 ```
 
 Solutions:
-- [Ansible Configuration File](Files/ansible.cfg)
-- [Ansible Hosts File](Files/hosts)
-- [ELK Playbook](Files/install-elk.yml)
+- [Ansible Configuration File](/Files/ansible.cfg)
+- [Ansible Hosts File](/Files/hosts)
+- [ELK Playbook](/Files/install-elk.yml)
 
