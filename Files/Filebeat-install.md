@@ -174,7 +174,7 @@ Next, you needed to confirm that the ELK stack was receiving logs. Navigate back
 
 - If the ELK stack was successfully receiving logs, you would have seen:
 
-![](Images/Filebeat.png)
+![](/Images/Filebeat.png)
 
 
 
