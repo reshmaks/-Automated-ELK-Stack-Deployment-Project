@@ -24,8 +24,8 @@ This will allow traffic to pass between your vNets and regions. This peer connec
 
 - Leave all other settings at their defaults.
 
-![](/Images/vNet-images/Peering.png)
+![](/Images/Peering.png)
 
-![](/Images/vNet-images/Peerings-final.png)
+![](/Images/Peerings-final.png)
 
 
