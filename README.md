@@ -317,9 +317,18 @@ ansible-playbook metricbeat-playbook.yml
 
 ### Exploring Kibana
 
+- Kibana System Log Dashboard
 ![Kibana System Log Dashboard](Images/Kibana-syslog-dashboard.png)
+
+- Web-1 Host System Metrics Overview
 ![Kibana Web-1 Host System Metrics Overview](Images/Web-1_System_overview.png)
+
+- Web-1 Container Metrics Overview
 ![Kibana Web-1 Container Metrics Overview](Images/Web-1_container_overview.png)
+
+- SSH Login Attempts Overview
 ![Kibana SSH Login Attempts Overview](Images/SSH_Login_attempts_logs.png)
+
+- SSH Failed Login Attempts Logs
 ![Kibana SSH Failed Login Attempts Logs](Images/SSH_Login_attempts_logs_2.png)
 
