@@ -48,7 +48,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCifGFl3FJ8BFDMkxOudiwuaD+8l4zjH10k62gLAPHg
 - Make sure it is added to your new vNet and create a new Security Group for it.
 
 - Solutions:
-![](Images/ELK-vm-1.png)
+![](/Images/ELK-vm-1.png)
 
-![](Images/ELK-vm-2.png)
+![](/Images/ELK-vm-2.png)
 
