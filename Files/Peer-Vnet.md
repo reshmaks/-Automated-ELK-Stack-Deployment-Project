@@ -10,7 +10,7 @@ This will allow traffic to pass between your vNets and regions. This peer connec
 
 - Click the `+ Add` button to create a new Peering.
 
-![](Images/Peerings-side.png)
+![](/Images/Peerings-side.png)
 
 - Make sure your new Peering has the following settings:
 
@@ -24,8 +24,8 @@ This will allow traffic to pass between your vNets and regions. This peer connec
 
 - Leave all other settings at their defaults.
 
-![](Images/vNet-images/Peering.png)
+![](/Images/vNet-images/Peering.png)
 
-![](Images/vNet-images/Peerings-final.png)
+![](/Images/vNet-images/Peerings-final.png)
 
 
