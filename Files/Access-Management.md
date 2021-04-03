@@ -7,10 +7,10 @@ Verify that you can load the ELK stack server from your browser at `http://20.80
 Solutions:
 Sending traffic to the entire ELK-NET is fine here because there are no other resources besides the ELK server.
 
-![](Images/Security_group.png)
+![](/Images/Security_group.png)
 
 If everything is working correctly, you should see this webpage:
 
-![Kibana_Home](Images/Kibana_Home.png)
+![Kibana_Home](/Images/Kibana_Home.png)
 
 
