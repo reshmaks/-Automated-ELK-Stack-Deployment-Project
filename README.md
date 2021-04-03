@@ -8,16 +8,15 @@
   - [Ansible](#What-is-Ansible)
 - [Server Requirements](#Minimum-Server-Requirements)
 - [Infrastructure Access Policies](#Access-Policies)
-- [Setup Instructions](#Setup Instructions)
+- [Setup Instructions](#Setup-Instructions)
 - [ELK Config File](/Files/install-elk.yml)
 - [Filebeat Config File](/Files/filebeat-config.yml)
 - [Metricbeat Config File](/Files/metricbeat-config.yml)
-- Setting up your Ansible environment  and SSH Keys
 - [Deploying the ELK Stack using Ansible](#Elk-Configuration)
 - [Deploying the Filebeat clients using Ansible](#Filebeat)
 - [Deploying the Metricbeat clients using Ansible](#Metricbeat)
-- Check on all services are up and running
-- Exploring Kibana
+- [Check on all services are up and running](#Check-on-all-services-are-up-and-running)
+- [Exploring Kibana](#Exploring-Kibana)
 
 
 *The files in this repository were used to configure the network depicted below.
@@ -311,3 +310,16 @@ To run the playbook: ansible-playbook metricbeat-playbook.yml
 cd /etc/ansible/files
 ansible-playbook metricbeat-playbook.yml
 ```
+### Check on all services are up and running
+
+![Filebeat Service](Images/Filebeat.png)
+![Metricbeat Service](Images/Metricbeat.png)
+
+### Exploring Kibana
+
+![Kibana System Log Dashboard](Images/Kibana-syslog-dashboard.png)
+![Kibana Web-1 Host System Metrics Overview](Images/Web-1_System_overview.png)
+![Kibana Web-1 Container Metrics Overview](Images/Web-1_container_overview.png)
+![Kibana SSH Login Attempts Overview](Images/SSH_Login_attempts_logs.png)
+![Kibana SSH Failed Login Attempts Logs](Images/SSH_Login_attempts_logs_2.png)
+
