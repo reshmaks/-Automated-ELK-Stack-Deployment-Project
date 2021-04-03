@@ -6,4 +6,4 @@ Make sure that you are logged into your personal Azure account, where your cloud
 
 - Make sure this vNet is located in a _new_ region and not the same region as your other VM's.
 
-![](Images/vNet.png)
+![](/Images/vNet.png)
