@@ -11,6 +11,6 @@ Sending traffic to the entire ELK-NET is fine here because there are no other re
 
 If everything is working correctly, you should see this webpage:
 
-![](Images/Kibana_Home.png)
+![Kibana_Home](Images/Kibana_Home.png)
 
 
