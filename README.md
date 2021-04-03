@@ -5,11 +5,10 @@
 - [Description of the Topology](#Description-of-the-Topology)
 - Basics
   - [ELK Stack](#What-is-an-ELK-stack)
-  - Beats Family
   - [Ansible](#What-is-Ansible)
-- Setup Instructions
 - [Server Requirements](#Minimum-Server-Requirements)
 - [Infrastructure Access Policies](#Access-Policies)
+- [Setup Instructions](#Setup Instructions)
 - [ELK Config File](/Files/install-elk.yml)
 - [Filebeat Config File](/Files/filebeat-config.yml)
 - [Metricbeat Config File](/Files/metricbeat-config.yml)
@@ -107,6 +106,27 @@ A summary of the access policies in place can be found in the table below.
 | ELK-Server          | No                  | 10.0.0.4 |
 
 --All these VMs can only be accessed form the Jump-Box-Provisioner--
+
+## Setup Instructions
+
+In the Azure portal, a cloud network consisting of :
+- A Jumpbox server, 
+- Three web application servers and 
+- A load balancer 
+All these components are configured within a resource group called *Red Team Resource group*. Please refer the network diagram below for the Red Team cloud network architechure.
+
+![Red Team Cloud Network Diagram](/Diagrams/RedTeam-Diagram.png)
+
+### Steps to configure an ELK server within an existing virtual network.
+
+- Create a new vNet in a new region, within the existing Red Team resource group.
+- Create a Peer Network Connection between the two vNets.
+- Create a new VM. Deploy a new VM into the new vNet with it's own Security Group. This VM will host the ELK server.
+- Download and configure a container. Download and configure the elk-docker container onto this new VM.
+- Launch and expose the container. Launch the elk-docker container to start the ELK server.
+- Implement identity and access management. Configure your new Security group so you can connect to
+ELK via HTTP, and view it through the browser.
+
 
 ### Elk Configuration
 
